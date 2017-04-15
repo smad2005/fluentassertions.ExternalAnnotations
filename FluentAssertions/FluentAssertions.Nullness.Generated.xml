@@ -1,0 +1,595 @@
+<assembly name="FluentAssertions">
+  <member name="M:FluentAssertions.ObjectAssertionsExtensions.BeXmlSerializable(FluentAssertions.Primitives.ObjectAssertions,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="assertions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.ObjectAssertionsExtensions.BeDataContractSerializable``1(FluentAssertions.Primitives.ObjectAssertions,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="assertions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.ObjectAssertionsExtensions.BeBinarySerializable``1(FluentAssertions.Primitives.ObjectAssertions,System.Func{FluentAssertions.Equivalency.EquivalencyAssertionOptions{``0},FluentAssertions.Equivalency.EquivalencyAssertionOptions{``0}},System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="assertions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="options">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.XmlAssertionExtensions.Should(System.Xml.XmlNode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.XmlAssertionExtensions.Should(System.Xml.XmlElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Awaiting``1(``0,System.Func{``0,System.Threading.Tasks.Task})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Invoking``1(``0,System.Action{``0})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.ExecutionTime(System.Action)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Xml.Linq.XAttribute)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.ExecutionTimeOf``1(``0,System.Linq.Expressions.Expression{System.Action{``0}})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Xml.Linq.XDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Enumerating(System.Func{System.Collections.IEnumerable})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Reflection.Assembly)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Xml.Linq.XElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Enumerating``1(System.Func{System.Collections.Generic.IEnumerable{``0}})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Nullable{System.Boolean})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Nullable{System.Guid})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Guid)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Collections.IEnumerable)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should``1(System.Collections.Generic.IEnumerable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Collections.Generic.IEnumerable{System.String})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should``2(System.Collections.Generic.IDictionary{``0,``1})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Nullable{System.DateTime})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Nullable{System.DateTimeOffset})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.DateTime)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should``1(System.IComparable{``0})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Nullable{System.Int32})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Nullable{System.Decimal})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.DateTimeOffset)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Nullable{System.Byte})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Decimal)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Nullable{System.Int16})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Int16)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Nullable{System.Int64})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Nullable{System.Single})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Single)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Nullable{System.Double})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Byte)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Nullable{System.TimeSpan})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.TimeSpan)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Type)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Reflection.ConstructorInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Reflection.MethodInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(System.Reflection.PropertyInfo)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(FluentAssertions.Types.MethodInfoSelector)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="methodSelector">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(FluentAssertions.Types.TypeSelector)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="typeSelector">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.Should(FluentAssertions.Types.PropertyInfoSelector)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="propertyInfoSelector">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.ShouldThrowExactly``1(System.Action,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.ShouldThrowExactly``1(System.Func{System.Threading.Tasks.Task},System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.MonitorEvents(System.Object)">
+    <parameter name="eventSource">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.MonitorEvents``1(System.Object)">
+    <parameter name="eventSource">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.AssertionExtensions.As``1(System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.EventSourceExtensions.ShouldRaise(System.Object,System.String,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.PropertyChangedSourceExtensions.WithSender(FluentAssertions.Events.IEventRecorder,System.Object)">
+    <parameter name="eventRecorder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.PropertyChangedSourceExtensions.WithArgs``1(FluentAssertions.Events.IEventRecorder,System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="eventRecorder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="predicate">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.PropertyChangedSourceExtensions.ShouldRaisePropertyChangeFor``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.PropertyChangedSourceExtensions.WithArgs``1(FluentAssertions.Events.IEventRecorder,System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}}[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="eventRecorder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="predicates">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Specialized.ExecutionTimeAssertions.#ctor(System.Action)">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Specialized.MemberExecutionTimeAssertions`1.#ctor(`0,System.Linq.Expressions.Expression{System.Action{`0}})">
+    <parameter name="action">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:FluentAssertions.Reflection.AssemblyAssertions.Context">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Reflection.AssemblyAssertions.NotReference(System.Reflection.Assembly,System.String,System.String[])">
+    <parameter name="assembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Reflection.AssemblyAssertions.Reference(System.Reflection.Assembly,System.String,System.String[])">
+    <parameter name="assembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Reflection.AssemblyAssertions.DefineType(System.String,System.String,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Formatting.XAttributeValueFormatter.ToString(System.Object,System.Boolean,System.Collections.Generic.IList{System.Object},System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Formatting.XDocumentValueFormatter.ToString(System.Object,System.Boolean,System.Collections.Generic.IList{System.Object},System.Int32)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Formatting.XElementValueFormatter.ToString(System.Object,System.Boolean,System.Collections.Generic.IList{System.Object},System.Int32)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlElementAssertions.HaveInnerText(System.String,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlElementAssertions.HaveElementWithNamespace(System.String,System.String,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlElementAssertions.HaveAttributeWithNamespace(System.String,System.String,System.String,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:FluentAssertions.Xml.XmlNodeAssertions`2.Context">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlNodeAssertions`2.BeEquivalentTo(System.Xml.XmlNode,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlNodeAssertions`2.NotBeEquivalentTo(System.Xml.XmlNode,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="unexpected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlNodeFormatter.ToString(System.Object,System.Boolean,System.Collections.Generic.IList{System.Object},System.Int32)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:FluentAssertions.Xml.XAttributeAssertions.Context">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XAttributeAssertions.HaveValue(System.String,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XAttributeAssertions.Be(System.Xml.Linq.XAttribute,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XAttributeAssertions.NotBe(System.Xml.Linq.XAttribute,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="unexpected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:FluentAssertions.Xml.XDocumentAssertions.Context">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.BeEquivalentTo(System.Xml.Linq.XDocument,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.NotBeEquivalentTo(System.Xml.Linq.XDocument,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="unexpected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.Be(System.Xml.Linq.XDocument,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.HaveRoot(System.String,System.String,System.Object[])">
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.HaveElement(System.String,System.String,System.Object[])">
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.NotBe(System.Xml.Linq.XDocument,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.HaveRoot(System.Xml.Linq.XName,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.HaveElement(System.Xml.Linq.XName,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:FluentAssertions.Xml.XElementAssertions.Context">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.NotBeEquivalentTo(System.Xml.Linq.XElement,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="unexpected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.BeEquivalentTo(System.Xml.Linq.XElement,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.Be(System.Xml.Linq.XElement,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.HaveValue(System.String,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.NotBe(System.Xml.Linq.XElement,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.HaveElement(System.Xml.Linq.XName,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.HaveAttribute(System.Xml.Linq.XName,System.String,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expectedName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.HaveElement(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.HaveAttribute(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.HaveElement(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.HaveRoot(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlElementAssertions.HaveAttribute(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlElementAssertions.HaveElement(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Execution.AssertionFailedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+    <parameter name="info">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:FluentAssertions.Common.ProvidePlatformServices.Reflector">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:FluentAssertions.Common.ProvidePlatformServices.ConfigurationStore">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:FluentAssertions.Common.ProvidePlatformServices.Throw">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:FluentAssertions.Common.ProvidePlatformServices.Formatters">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.ObjectAssertionsExtensions.BeDataContractSerializable(FluentAssertions.Primitives.ObjectAssertions,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="assertions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.ObjectAssertionsExtensions.BeBinarySerializable(FluentAssertions.Primitives.ObjectAssertions,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="assertions">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.EventSourceExtensions.ShouldRaise(System.Object,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.PropertyChangedSourceExtensions.ShouldRaisePropertyChangeFor``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Reflection.AssemblyAssertions.Reference(System.Reflection.Assembly)">
+    <parameter name="assembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Reflection.AssemblyAssertions.NotReference(System.Reflection.Assembly)">
+    <parameter name="assembly">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlElementAssertions.HaveAttributeWithNamespace(System.String,System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlElementAssertions.HaveElementWithNamespace(System.String,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlElementAssertions.HaveInnerText(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlElementAssertions.HaveElement(System.String,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlElementAssertions.HaveAttribute(System.String,System.String,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlNodeAssertions`2.BeEquivalentTo(System.Xml.XmlNode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XmlNodeAssertions`2.NotBeEquivalentTo(System.Xml.XmlNode)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="unexpected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XAttributeAssertions.Be(System.Xml.Linq.XAttribute)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XAttributeAssertions.NotBe(System.Xml.Linq.XAttribute)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="unexpected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XAttributeAssertions.HaveValue(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.Be(System.Xml.Linq.XDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.NotBe(System.Xml.Linq.XDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.BeEquivalentTo(System.Xml.Linq.XDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.HaveRoot(System.Xml.Linq.XName)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.NotBeEquivalentTo(System.Xml.Linq.XDocument)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="unexpected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XDocumentAssertions.HaveElement(System.Xml.Linq.XName)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.Be(System.Xml.Linq.XElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.NotBe(System.Xml.Linq.XElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.BeEquivalentTo(System.Xml.Linq.XElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.NotBeEquivalentTo(System.Xml.Linq.XElement)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="unexpected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.HaveValue(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.HaveAttribute(System.Xml.Linq.XName,System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expectedName">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.HaveElement(System.Xml.Linq.XName)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="expected">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.HaveAttribute(System.String,System.String,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:FluentAssertions.Xml.XElementAssertions.HaveElement(System.String,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+</assembly>
